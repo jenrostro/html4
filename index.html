@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <title>CSS GRID</title>
 	<style>
+		.wrapper{
+			display: grid;
+		grid-template-columns:1fr 1fr 1fr;
+			grid-gap: 2px;
+			grid-auto-rows:minmax(100px,auto);
+		}
+		.wrapper> div{
+			padding: 2px;
+		}
+		
 	.grid-container{
 	display: inline-grid
 	grid-column-gap:20px;
@@ -21,16 +31,29 @@
 	</style>
 	</head>
 	<body>
-	
+		
+		  
 	<h1> Spa & Recreation </h1>
+		
 		<div class="grid-container">
+			<div class="wrapper">
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error cumque quia soluta laboriosam, iure saepe eum nihil totam pariatur deserunt voluptate temporibus animi aspernatur dolor? Saepe, itaque, quae. Cupiditate dolore dignissimos cumque, dolor officiis a dolorum deleniti, magni placeat omnis minus repudiandae. Sunt distinctio voluptate dolorem autem dignissimos consectetur possimus excepturi. Ducimus nam architecto non magni debitis sunt sequi velit maxime nesciunt odit et voluptatem molestias illo, sit. Dolores enim totam blanditiis voluptatibus impedit minus nesciunt, quo quos, officiis fuga.</div>
+		
 		<div class="grid-item"><img src="male ball.jpg" alt="man holdibg weighted ball"></div>
-		<div class="grid-itme"><img src="workout.jpg" alt="women in workout class"></div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta harum saepe, tempora dolore provident unde! Ipsa minima, corporis consectetur, dolorem, nisi nihil, sunt repellat magnam eligendi perspiciatis atque! Vero, ad! </div>
+		  
+		<div class="grid-item"><img src="workout.jpg" alt="women in workout class"></div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore officia quaerat et, odit eligendi numquam. Quia similique illo quas porro autem laborum officiis eum, nisi maiores, tenetur hic aspernatur dignissimos earum dolor culpa nulla in atque recusandae unde facere voluptatum?</div>
 		<div class="grid-item"><img src="maleworkout.jpg" alt= "man working out"></div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta harum saepe, tempora dolore provident unde! Ipsa minima, corporis consectetur, dolorem, nisi nihil, sunt repellat magnam eligendi perspiciatis atque! Vero, ad! </div>
+		  
 		<div class="grid-item">Find your perfect fit. Classes every hour.</div>
 		</div>
+		</div>
+		
 	</body>
 
 <body>
+	
 </body>
 </html>
